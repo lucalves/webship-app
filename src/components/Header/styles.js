@@ -7,10 +7,11 @@ export default StyleSheet.create({
     paddingVertical: 15,
     paddingHorizontal: 15,
     alignItems: 'center',
-    backgroundColor: '#ffffff'
+    backgroundColor: '#311D72',
+    marginBottom: 60
   },
   logoIcon: {
-    width: 110,
-    height: 20 
+    width: 120,
+    height: 40 
   }
 })

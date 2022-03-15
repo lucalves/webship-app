@@ -9,7 +9,7 @@ export default StyleSheet.create({
   cardView: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    margin: 5,
+    margin: 10,
     backgroundColor: "white",
     borderRadius: 15,
     padding: 15,
@@ -25,25 +25,27 @@ export default StyleSheet.create({
     minHeight: 200
   },
   promotionImage: {
-    width: '50%'
+    width: '50%',
+    borderRadius: 16,
+    borderWidth: 1,
   },
   descriptionText: {
     flex: 1
   },
   titleText: {
     color: "black",
+    textAlign: "center",
     fontWeight: "bold",
     fontSize: 16,
     margin: 5
   },
   priceText: {
-    color: "#e73931",
-    fontWeight: "bold",
+    textAlign: "center",
     fontSize: 16,
     margin: 5
   },
   linkButton: {
-    backgroundColor: "#2196F3",
+    backgroundColor: "#311D72",
     borderRadius: 15,
     padding: 10,
     elevation: 2,
@@ -51,6 +53,6 @@ export default StyleSheet.create({
   },
   textLinkButton: {
     color: "#FFFFFF",
-    textAlign: 'center'
+    textAlign: 'center',
   }
 })

@@ -3,6 +3,7 @@ import { View, Modal, Text, TextInput, TouchableHighlight, Image } from 'react-n
 import Styles from './styles'
 
 const SearchIcon = require('./../../assets/search.png')
+const CancelIcon = require('./../../assets/cancel-icon.png')
 
 class PromotionFormSearch extends Component {
   constructor(props) {
@@ -26,15 +27,14 @@ class PromotionFormSearch extends Component {
               <TextInput
                 style={ Styles.searchInput }
                 onChangeText={ () => { return false } }
-                placeholder='Procurar por Promoções'
+                placeholder='Procurar'
               />
               <TouchableHighlight
-                style={ Styles.closeButton }
                 onPress={() => {
                   this.setState({ modalVisible: false })
                 }}
               >
-                <Text style={ Styles.textStyle }>Cancelar</Text>
+                <Image source={ CancelIcon } style={ Styles.cancelIcon } />
               </TouchableHighlight>
             </View>
           </View>

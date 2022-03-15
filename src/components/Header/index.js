@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { View, Image } from 'react-native'
 import Styles from './styles'
-import PromotionFormSearch from './../PromotionFormSearch'
+import PromotionFormSearch from '../../components/PromotionFormSearch'
 
-const Logo = require('./../../assets/logo.png')
+const Logo = require('../../assets/logo.png')
 
 class Header extends Component {
   render() {

@@ -8,7 +8,7 @@ export default StyleSheet.create({
   centeredView: {
     flex: 1,
     alignItems: "center",
-    marginTop: 30
+    marginTop: 60
   },
   modalView: {
     flexDirection: 'row',
@@ -29,11 +29,9 @@ export default StyleSheet.create({
     width: '94%',
     height: 60
   },
-  closeButton: {
-    backgroundColor: "#2196F3",
-    borderRadius: 15,
-    padding: 5,
-    elevation: 2
+  cancelIcon: {
+    width: 30,
+    height: 30,
   },
   textStyle: {
     color: "white",
