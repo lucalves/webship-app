@@ -9,6 +9,9 @@ class PromotionsList extends Component {
     data: []
   }
 
+  // componentDidMount() para executar a inicialização da chamada na API
+  // assim que o componente for montado  (inserido na árvore)
+
   componentDidMount() {
     axios.get('https://irias.com.br/tutorials/react-native/api.php').then(response => { 
         this.setState({ data: response.data })
@@ -16,6 +19,9 @@ class PromotionsList extends Component {
         console.log('Error retrieving data')
       })
     }
+
+  // utilização do método render() para examinar o this.setState 
+  // e retornar um elemento React, no nosso caso o PromotionCard
 
   render() {
     return(

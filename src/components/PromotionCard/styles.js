@@ -26,8 +26,6 @@ export default StyleSheet.create({
   },
   promotionImage: {
     width: '50%',
-    borderRadius: 16,
-    borderWidth: 1,
   },
   descriptionText: {
     flex: 1
