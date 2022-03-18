@@ -13,6 +13,7 @@
 ## Technologies
 
 - [React Native](https://reactnative.dev/)
+- [Redux](https://redux.js.org/)
 
 ## Install
 
