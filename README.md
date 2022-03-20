@@ -1,8 +1,8 @@
-<h1 align="center">
+<h1>
   Webship
 </h1>
 
-<p align="center">A simple e-commerce application created to practice Redux concepts.</p>
+<p>A simple e-commerce application created to practice Redux concepts.</p>
 
 ## Screenshot
 
