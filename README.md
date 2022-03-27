@@ -19,7 +19,7 @@
 
 ```bash
 # Clone this repository
-$ git clone git@github.com:lucalves/webship-react-app.git
+$ git clone git@github.com:lucalves/webship-app.git
 
 # Go into the repository
 $ cd webship-react-app
