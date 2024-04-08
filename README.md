@@ -1,10 +1,8 @@
-<h1>
-  Webship
-</h1>
+# webship-app
 
 <p>A simple e-commerce application created to practice Redux concepts.</p>
 
-## Screenshot
+## Screenshots
 
 <h1>
   <img alt="Mobile Mockups" height="550"  title="Mobile Mockup" src=".github/screenshot.png" />
