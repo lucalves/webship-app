@@ -27,6 +27,11 @@ $ code .
 
 # Install dependencies with npm or yarn
 $ yarn or npm install
+```
+
+## License
+
+MIT
 
 # Start the application
 $ yarn android (or yarn ios)
