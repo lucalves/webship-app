@@ -1,6 +1,6 @@
 # webship-app 🛒
 
-<p>A simple e-commerce application created to practice Redux concepts.</p>
+<p>A simple e-commerce application created to practice redux concepts.</p>
 
 ## Screenshots
 
