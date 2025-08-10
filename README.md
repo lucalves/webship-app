@@ -37,4 +37,3 @@ MIT
 $ yarn android (or yarn ios)
 
 # Ready!
-```
