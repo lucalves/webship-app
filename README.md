@@ -25,7 +25,7 @@ $ cd webship-react-app
 # Open the repository in the IDE (If you use VS Code)
 $ code .
 
-# Install dependencies with npm or yarn
+# Install dependencies
 $ yarn or npm install
 ```
 
